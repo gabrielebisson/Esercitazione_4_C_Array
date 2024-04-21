@@ -61,7 +61,7 @@ int main()
     out_str << "Rate of return of the portfolio: " <<R<<endl;
     out_str << setprecision(2);
     out_str.setf(ios_base::fixed);
-    out_str << "V: "<<V<<endl;
+    out_str << "V= "<<V<<endl;
     out_str.close(); //la stampa dei risultati è finita
 
     delete[] w; //eliminazione della memoria richiesta prima dell'uscita dal blocco
